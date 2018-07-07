@@ -1,0 +1,62 @@
+--- Blocks ---
+* Additional decorative gems.
+	** Citrine
+* Mineral water.
+	** Can have Crystal shards planted in it to grow additional crystals.
+* Fossil blocks.
+	** Contain a nearly identical texture to stone.
+	** Nautilus fossil.
+	** Turtle fossil.
+	** Coral fossil.
+* Stalagmites;Stalactites
+	** Can only be obtained with silk touch, drops gravel when broken without.
+
+-- Plants --
+* Ore Flower.
+	** Redstone flower found growing on redstone.
+		*** Can only be placed on redstone.
+		*** Glows with light level 2 when interacted with.
+	** Gold laced flower.
+		*** Found growing on gold ore within 8 blocks of lava, light level above 4.
+		*** Can be smelted for one gold nugget.
+* Tree roots.
+	** Spawn directly below trees, despawn when log above it is removed.
+	** Can be obtained with silk touch, are persistent once placed by player.
+* Moss.
+	** Between y=48 and y=64.
+	** Light level below 10.
+	** Cannot form in desert and mesa.
+* Biomluminescent Mushroom.
+	** Give off a light level of 3.
+
+--- Mobs ---
+
+-- Hostile --
+* Miner zombie
+	** Drops 1-4 cobblestone when killed, along with 0-1 rotten flesh, and rarely 1-2 iron ore.
+	** Often spawn with a stone pickaxe that they will drop when killed.
+	** Implements zombie ai, with the added ability to break blocks 
+	while seeking the player, blocks break at same speed as player 
+	with a wooden pickaxe.
+
+
+-- Neutral --
+
+-- Passive --
+
+--- Drops ---
+* Venom gland
+	** Used to brew potion of poison resistance.
+	
+--- Potions ---
+* Implementation of the luck potion.
+* Potion of poison resistance.
+	** Prevents damage from poison and wither(?) effect.
+	
+--- Structures ---
+* Underground hot spring.
+	** Contain mineral water, as well as luminescent crystals.
+* Mushroom cavern.
+* Additional Dungeons.
+	** Silverfish.
+* Phosphorescent crystal cavern
