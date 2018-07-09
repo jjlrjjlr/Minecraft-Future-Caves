@@ -1,5 +1,7 @@
 package jjlr.caveupdate;
 
+import java.io.File;
+
 import jjlr.caveupdate.items.modItems;
 import jjlr.caveupdate.proxies.commonproxy;
 import net.minecraft.item.Item;
@@ -15,6 +17,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(modid = references.MODID, name = references.NAME, version = references.VERSION)
 public class caveUpdateMain {
+	
+	public static File config;
 	
 	@Instance
 	public static caveUpdateMain instance;
@@ -50,6 +54,8 @@ public class caveUpdateMain {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(references.NAME + " is starting...");
+		
+		configuration.registerConfig(event);
 	}
 	
 	/*

@@ -11,6 +11,12 @@ public class oreGemBlock extends basicBlock {
 		
 		setHardness(hardness);
 		setResistance(resistance);
+		
+		/* Debug start
+		if(Config.debugStatus == true) {
+			System.out.println(references.MODID + ": " + name + " created.");
+		}
+		Debug end */
 	}
 	
 	@Override

@@ -5,6 +5,8 @@ package jjlr.caveupdate.blocks;
  */
 
 import jjlr.caveupdate.caveUpdateMain;
+import jjlr.caveupdate.configuration;
+import jjlr.caveupdate.references;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -23,6 +25,12 @@ public class basicBlock extends Block {
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		
+		/* Debug start */
+		if(configuration.debugStatus == true) {
+			System.out.println(references.MODID + ": " + name + " created.");
+		}
+		/* Debug end */
 	}
 	
 	public void registerItemModel(Item itemBlock) {
