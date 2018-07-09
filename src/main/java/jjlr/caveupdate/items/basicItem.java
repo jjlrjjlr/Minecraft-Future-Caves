@@ -1,6 +1,8 @@
 package jjlr.caveupdate.items;
 
 import jjlr.caveupdate.caveUpdateMain;
+import jjlr.caveupdate.configuration;
+import jjlr.caveupdate.references;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -14,6 +16,12 @@ public class basicItem extends Item {
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		
+		/* Debug start */
+		if(configuration.debugStatus == true) {
+			System.out.println(references.MODID + ": " + name + " created.");
+		}
+		/* Debug end */
 	}
 	
 	// Register item renderer with proxy.
