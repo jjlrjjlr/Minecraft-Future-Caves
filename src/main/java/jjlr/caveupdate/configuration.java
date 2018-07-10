@@ -28,13 +28,16 @@ public class configuration {
 		
 		category = "Features";
 		
-		config.save();
+		//save
+		if(config.hasChanged()) {
+			config.save();
+		}
 		
 	}
 	
 	public static void registerConfig(FMLPreInitializationEvent event) {
 		caveUpdateMain.config = new File(event.getModConfigurationDirectory() + "/" + references.MODID);
 		caveUpdateMain.config.mkdirs();
-		init(new File(caveUpdateMain.config.getPath() + references.MODID + ".cfg"));
+		init(new File(caveUpdateMain.config.getPath() + File.separator + references.MODID + ".cfg"));
 	}
 }
