@@ -1,5 +1,11 @@
 package jjlr.caveupdate.items;
 
+/* 
+ * Class used to implement basic items.
+ * Created by jjlr ; 7/10/2018 1:09 AM (UTC)
+ * Last Updated: 7/2018
+ */
+
 import jjlr.caveupdate.caveUpdateMain;
 import jjlr.caveupdate.configuration;
 import jjlr.caveupdate.references;
