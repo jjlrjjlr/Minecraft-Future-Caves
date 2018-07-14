@@ -18,6 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod(modid = references.MODID, name = references.NAME, version = references.VERSION)
 public class caveUpdateMain {
 	
+	//Configuration
 	public static File config;
 	
 	@Instance
@@ -55,6 +56,7 @@ public class caveUpdateMain {
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(references.NAME + " is starting...");
 		
+		//Register configuration
 		configuration.registerConfig(event);
 	}
 	

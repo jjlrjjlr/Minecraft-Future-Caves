@@ -6,8 +6,6 @@ import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
-
-//@Config(modid = references.MODID, name = references.NAME)
 public class configuration {
 	
 	public static Configuration config;
